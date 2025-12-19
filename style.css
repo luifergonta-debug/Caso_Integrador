@@ -228,6 +228,8 @@ body{
     font-size: 25px;
     margin-block-end: 10px;
     display: flex;
+    padding-top: 40px;
+}
 }
 
 .tarjeta-redes{
@@ -254,6 +256,9 @@ body{
     overflow: hidden;
     padding-bottom: 56.25%;
     height: 0;
+    text-align: center;
+    background-color: rgb(233, 172, 215);
+    padding-top: 40px;
 }
 
 .user{
@@ -262,4 +267,11 @@ body{
     color: black;
     font-size: large;
     margin: 20px;
+}
+
+.info{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    color: black;
+    margin-top: 40px;
 }
