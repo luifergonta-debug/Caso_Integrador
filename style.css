@@ -126,3 +126,81 @@ body{
     font-style: italic;
     margin: 10px;
 }
+
+.box-container{
+    display: flex;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: oblique;
+    font-size: 10px;
+    margin: 10px;
+    gap: 100px;
+    justify-content: center;
+}
+
+.box-container img{
+     width: 100%;
+    height: 80px;
+    object-fit: cover;
+}
+
+
+.box-container h4{
+     text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: oblique;
+    font-size: 15px;
+    margin: 10px;
+}
+
+.encabezado-01{
+    text-align: center;
+    margin: 20px ;
+    color: rgba(204, 33, 104, 0.959);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.precio{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: oblique;
+    font-size: 15px;
+    margin: 10px;
+    color: rgb(231, 30, 30);
+}
+.agregar-carrito{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: oblique;
+    font-size: 10px;
+    margin: 10px;
+}
+.box-pl-container{
+    display: flex;
+    align-items: center;
+    gap: 100px;
+     justify-content: center;
+
+}
+.box-pl-container img{
+     width: 100%;
+    height: 80px;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.box-pl-container h4 {
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: oblique;
+    font-size: 15px;
+    margin: 10px;
+}
+
+
+.encabezado-02{
+    text-align: center;
+    margin: 20px ;
+    color: rgba(204, 33, 104, 0.959);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
